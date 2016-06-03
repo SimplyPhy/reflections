@@ -1,0 +1,71 @@
+Reflections on diff (mac), -u (unified diff format), and fc (windows):
+
+I’m more interested on the process of reflection, it’s potential to improve learning, how to implement it creatively, discreetly, and how to gamify it.
+
+Nonetheless, I’ve been asked by the Udacity instructors to reflect on what I’ve learned of diff, -u, and fc.  More specifically, they’ve asked that I reflect on diff in general.
+
+I suppose they want me to speak about the variable utility of diff in git.  I imagine that it’s primarily utility is to recognize changes in file versions, mostly to identify sources of bugs, or unexpected changes, in a program.  This is especially useful in large programs.
+
+I also suspect that I’ll be asked to do something with these reflections, as they’ve requested that I type them in a simple text editor, instead of a “rich” text editor (word, etc).
+
+So, after I was told to do the above, I went to a new webpage, which asked that I answer the following:
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It showed the differences between the files' content, showing me the rows (and columns) which had differences.
+For a file in a large document, this saves a huge amount of time.
+Also, I learned that it's best not to have plain text docs with a ton of type included in each line if you might check differences in the future, as "diff" can't tell you which line content lies on if you don't create new rows between content.
+And that's why I've hit "enter" after each sentence in this reflection. :)
+
+***** ***** *****
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can more freely and easily make changes to a file without saving new file versions.  You can also go back in time to see changes you've made before, so as not to make those same changes again.
+
+***** ***** *****
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Each have advantages.
+I feel that the google docs version control is nice, as it protects from unexpected occurrences, such as a program crashing.
+It also allows a dev to go back to any point in a project, so long as saves are available for long enough.
+Git's version control is better when it comes to recognizing key points.
+It's easier to track down bugs when you have logic commits, as opposed to simply know that a bug has been caused within the past x amount of time.
+A combination of the two seems best to me, like how dropbox does it.
+
+***** ***** *****
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Accessibility is one reason.  More people are familiar with individual file saves.
+System resources could be another reason.  Google docs saves files very often, and saving multiple files together would be more intensive for the system itself.
+Git is more sophisticated, and more customizable.  Some tools value usability over customization capacity.
+
+***** ***** *****
+
+How can you use the commands git log and git diff to view the history of files?
+
+I don't know much about git log yet, as the instructions relating onto its purpose in the previous page were terrible.
+I get an error when I input "git log".
+Git diff shows changes between files or repositories.
+I really don't know what else I'm supposed to reflect upon here.
+
+***** ***** *****
+
+How might using version control make you more confident to make changes that could break something?
+
+Simple: you can always go back to a version of your program without the change, if it fails to work out the way you wanted.
+
+***** ***** *****
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I have no idea.
+So far, this course is more annoying than anything, and Git remains completely obscure to me.
+I need to gain significantly more practical knowledge of Git and it's components in order to be able to properly answer this question.
+If I stopped the course now, it wouldn't surprise me if I never opened Git again, except perhaps to use diff, as that's all I feel like I've learned so far.
+I'm really losing faith in Udacity as a learning tool...
+
+***** ***** *****
+
