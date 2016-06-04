@@ -22,7 +22,7 @@ A fork is a clone inside of GitHub.  A clone is the copying of a file from one l
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-
+If you don't have an internet connection, you can still check differences between the two versions.
 
 ***** ***** *****
 
