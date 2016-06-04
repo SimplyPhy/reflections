@@ -2,6 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, a hidden .git folder is created in the working directory.  This designates the WD as a git repository, where version control will thereafter be active for changes to the files inside the WD.
 
+
 ***** ***** *****
 
 How is the staging area different from the working directory and the repository?
@@ -9,11 +10,13 @@ What value do you think it offers?
 
 The staging area takes specified files from the working directory, and groups them in anticipation of their commit.  It enables the user to prepare the content of a commit prior to pushing it through.  Changes can still be saved to the files in the working directory, and unless you add the file to the staging area after you've saved those changes to the wd, you won't be committing those changes.
 
+
 ***** ***** *****
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can check the diffs between files in the staging area, and either the most recent update to that file in your working directory, or to the most recent commit.  Also, you can select specific portions of a file to commit.  Finally, you can stage one version of a file, and then change the file in your working directory several times over, without disrupting the staged file.
 
 
 ***** ***** *****
@@ -21,12 +24,14 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches allow you to make different iterations of a file, and maintain those different iterations for reference, for use, or for merging into another branch later on.
 
 
 ***** ***** *****
 
 How do the diagrams help you visualize the branch structure?
 
+They show the version of a file where branches begin, and where they merge (if at all).
 
 
 ***** ***** *****
@@ -34,9 +39,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-
+They become one branch, with a common log that lists the previous commits in chronological order.  You can delete the branch label afterwards, as the commits will not dangle.  The branches and merger are shown in the diagram the way they are because it provides a visual demonstration of what is taking place.
 
 ***** ***** *****
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Git accomplshes the task in the click of a button, while the alternative could be rather painstaking.  The obivous downside is that the code is likely to be more or less rolled together, perhaps in positions or styles that aren't how the authors would have preferred.  Generally, however, it appears that Git's merging capabilities are superior.
