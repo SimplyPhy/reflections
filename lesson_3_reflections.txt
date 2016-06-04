@@ -29,7 +29,7 @@ If you don't have an internet connection, you can still check differences betwee
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-
+Without GitHub, you might maintain a master file in a cloud service for reference, and have different named files with highlighted changes shared within that cloud service.  You would message other contributors to look at your changes prior to adding them to a primary file.  This would be harder mostly because it wouldn't should differences as well, and a person could purposefully or accidentally incorporate different changes that might cause malware/bugs.
 
 ***** ***** *****
 
