@@ -8,7 +8,7 @@ When you don't have access to the computer with your work on it, or when you are
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-
+You might not want to be bothered with constant updates in the middle of your workflow, especially if there are errors.  Also, perhaps there are changes that you don't want to interact with in your project.
 
 ***** ***** *****
 
