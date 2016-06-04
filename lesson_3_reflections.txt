@@ -36,6 +36,6 @@ Without GitHub, you might maintain a master file in a cloud service for referenc
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-
+Making changes to a separate branch allows for experimentation, or alterations, to be made to a program without having to change the production code.  This can allow for QA, feedback, etc.  Changing the master branch directly is better either when the change is clearly good for the release copy, or when a branch has matured to the point where it's prepared to be merged with the master branch.
 
 ***** ***** *****
